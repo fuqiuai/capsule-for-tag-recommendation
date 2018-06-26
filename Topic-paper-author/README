@@ -1,0 +1,24 @@
+========================================================
+Dataset information
+========================================================
+The data extracts papers in the period from 1990 to 2005 (16 years) from Arnetminer.org. It contains five domains:
+	Data Mining (KDD, SDM, ICDM, WSDM and PKDD); 
+	Medical Informatics (Journal of the American Medical Informatics Association, Journal of Biomedical Informatics, Artificial Intelligence in Medicine, IEEE Trans. Med. Imaging and IEEE Transactions on Information and Technology in Biomedicine);
+	Theory (STOC, FOCS and SODA);
+	Visualization (CVPR, ICCV, VAST, TVCG, IEEE Visualization and Information Visualization);
+	Database (SIGMOD, VLDB and ICDE);
+
+PS: Some papers' abstract are missing, we replace abstract instead of title. 	
+
+========================================================
+Data Format
+========================================================
+[Conference/Journal]	[Title]	[Authors]	[Year]	[Abstract]
+KDD	Cross-domain Collaboration Recommendation.	Jie Tang,Sen Wu,Jimeng Sun,Hang Su	2012	Interdisciplinary collaborations have generated huge impact to society. However, it is often hard for researchers to establish such cross-domain collaborations. What are the patterns of cross-domain collaboration In this paper, we analyze the cross-domain collaboration data from research publications and confirm the above patterns. We propose the Cross-domain Topic Learning (CTL) model to address these challenges. For handling sparse connections, CTL consolidates the existing cross-domain collaborations through topic layers instead of at author layers, which alleviates the sparseness issue. For handling complementary expertise, CTL models topic distributions from source and target domains separately, as well as the correlation across domains. For handling topic skewness, CTL only models relevant topics to the cross-domain collaboration. We compare CTL with several baseline approaches on large publication datasets from different domains. CTL outperforms baselines significantly on multiple recommendation metrics. Beyond accurate recommendation performance, CTL is also insensitive to parameter tuning as confirmed in the sensitivity analysis.
+
+PS: Columns are separated by tab(\t), and authors are separated by comma(,).
+
+========================================================
+Citation
+========================================================
+Jie Tang, Sen Wu, Jimeng Sun, and Hang Su. Cross-domain Collaboration Recommendation. In Proceedings of the Eighteenth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2012). pp. 1285-1293.
